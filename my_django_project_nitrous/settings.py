@@ -127,9 +127,17 @@ INSTALLED_APPS = (
     'debug_toolbar',
     'south',
     'myapp',
+    'easy_maps',
 )
 
+#Added by Ozgur
+#For debuf tool bar
 INTERNAL_IPS=('127.0.0.1','94.125.136.254')
+
+#For easy maps
+EASY_MAPS_CENTER = (-41.3, 32)
+
+#Added by Ozgur end
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
 
