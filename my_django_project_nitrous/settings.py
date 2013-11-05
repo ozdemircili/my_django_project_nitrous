@@ -126,6 +126,7 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'debug_toolbar',
     'south',
+    'myapp',
 )
 
 INTERNAL_IPS=('127.0.0.1','94.125.136.254')
